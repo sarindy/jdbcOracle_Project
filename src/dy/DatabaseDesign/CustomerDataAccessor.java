@@ -36,7 +36,7 @@ public class CustomerDataAccessor {
 			
 			while (rs.next()){
 				AccountNumFormat acctFormat= new AccountNumFormat(rs.getString(NBC_CODE), rs.getString(BRANCH_ID), rs.getString(ACCT_TYPE), rs.getString(ACCT_NUM), rs.getString(ACCT_CHK));
-				SimpleDateFormat formatter=new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss a");
+				SimpleDateFormat formatter=new SimpleDateFormat("dd-MMM-yyyy");
 				CustomerDetail row=new CustomerDetail();
 				row.setCustName(rs.getString(NAMES));
 				row.setCustAcct(acctFormat.toString());
