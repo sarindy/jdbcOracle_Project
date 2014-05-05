@@ -6,7 +6,7 @@
 	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/jdbcOracle_Project/lib/commons-net-1.4.1.jar"/>
 	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/jdbcOracle_Project/lib/jdom.jar"/>
 	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/jdbcOracle_Project/lib/log4j-1.2.13.jar"/>
-	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/jdbcOracle_Project/lib/ojdbc6.jar"/>
 	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/jdbcOracle_Project/lib/poi-3.2-FINAL-20081019.jar"/>
+	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/jdbcOracle_Project/lib/ojdbc14.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

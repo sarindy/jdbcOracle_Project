@@ -25,10 +25,10 @@ public class ConnectionManager {
                     return conn;   
                 }
             }catch(SQLException sqlEx){
-                
+                System.out.println(sqlEx);
             }
         }catch(ClassNotFoundException cnfEx){
-            
+            System.out.println(cnfEx);
         }
         return null;
     }
