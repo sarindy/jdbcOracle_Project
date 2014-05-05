@@ -9,7 +9,7 @@ import dy.Configuration.Configuration;
 public class ConnectionManager {
 	private static final String CONFIG_FILENAME = "/Connection-Config.xml";
 	
-	Configuration config=new Configuration("CONFIG_FILENAME");
+	Configuration config=new Configuration(CONFIG_FILENAME);
 	
 	public static Connection getConnection(){
 		ConnectionManager connection=new ConnectionManager();
