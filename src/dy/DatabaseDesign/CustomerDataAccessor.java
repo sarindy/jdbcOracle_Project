@@ -14,6 +14,7 @@ import dy.Model.CustomerDetail;
 
 public class CustomerDataAccessor {
 	private static final String NAMES = "NAMES";
+	@SuppressWarnings("unused")
 	private static final String CUST_ACCT_ID = "CUSTACCTID";
 	private static final String NBC_CODE = "NBC_CODE";
 	private static final String ACCT_NUM = "ACCT_NUM";
@@ -30,7 +31,7 @@ public class CustomerDataAccessor {
 		String selectSQL="SELECT NAMES,CUSTACCTID,NBC_CODE,ACCT_NUM,BRANCH_ID,CUST_ACCT_TYPE_ID,CHKSUM,OPEN_DATE FROM CUST_ACCT WHERE CUSTACCTID = ?";
 		try {
 			prepareStatement=conn.prepareStatement(selectSQL);
-			prepareStatement.setInt(1,  custAcctid);
+			prepareStatement.setInt(1,  custAcctid);//1 is the index of the parameter and custAcctid is the parameter
 			ResultSet rs=prepareStatement.executeQuery();
 			
 			
