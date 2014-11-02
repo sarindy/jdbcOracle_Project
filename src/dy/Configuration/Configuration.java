@@ -27,10 +27,10 @@ public class Configuration {
             doc = builder.build(is);
             Element root = doc.getRootElement();
             /* Database properties */
-            dbDriverName = root.getChild("DatabaseConfig1").getChildTextTrim("dbDriverName");
-            dbUserName = root.getChild("DatabaseConfig1").getChildTextTrim("dbUser");
-            dbPassword = root.getChild("DatabaseConfig1").getChildTextTrim("dbPassword");
-            dbUri = root.getChild("DatabaseConfig1").getChildTextTrim("dbURI");
+            dbDriverName = root.getChild("DatabaseConfig2").getChildTextTrim("dbDriverName");
+            dbUserName = root.getChild("DatabaseConfig2").getChildTextTrim("dbUser");
+            dbPassword = root.getChild("DatabaseConfig2").getChildTextTrim("dbPassword");
+            dbUri = root.getChild("DatabaseConfig2").getChildTextTrim("dbURI");
             
         } catch (JDOMException eJDom) {
             

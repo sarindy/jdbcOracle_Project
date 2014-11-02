@@ -6,4 +6,10 @@
 	    <dbPassword>qwe</dbPassword>
 	    <dbURI>jdbc:oracle:thin:@192.168.50.11:1521:db1</dbURI>
 	</DatabaseConfig1>
+	<DatabaseConfig2>
+	    <dbDriverName>com.microsoft.sqlserver.jdbc.SQLServerDriver</dbDriverName>
+	    <dbUser>sa</dbUser>
+	    <dbPassword>password</dbPassword>
+	    <dbURI>jdbc:sqlserver://localhost;databaseName=mydb</dbURI>
+	</DatabaseConfig2>
 </ConnConfig>
