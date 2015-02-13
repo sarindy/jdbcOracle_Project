@@ -7,7 +7,7 @@ public class Apps {
 
 	public static void main(String[] args) {
 
-		// Factory Patern
+		// Factory Pattern
 		IDFactory idFactory = new IDFactory();
 		objID generateID = idFactory.getFactory("customer");
 		if(generateID==null){
